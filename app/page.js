@@ -21,6 +21,10 @@ export default function Home() {
           <h2>🎨 Clean</h2>
           <p>Simple, beautiful design that's easy to customize</p>
         </div>
+        <div className="feature-card feature-card-4">
+          <h2>✨ Scalable</h2>
+          <p>Built to grow and adapt to your needs</p>
+        </div>
       </section>
 
       <section className="cta">
