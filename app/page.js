@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <main className="container">
@@ -23,7 +25,9 @@ export default function Home() {
 
       <section className="cta">
         <h2>Ready to get started?</h2>
-        <button className="cta-button">Get Started</button>
+        <Link href="/get-started" className="cta-button">
+          Get Started
+        </Link>
       </section>
 
       <footer>
