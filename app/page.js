@@ -7,15 +7,15 @@ export default function Home() {
       </section>
 
       <section className="features">
-        <div className="feature-card">
+        <div className="feature-card feature-card-1">
           <h2>🚀 Fast</h2>
           <p>Built with Next.js for optimal performance and speed</p>
         </div>
-        <div className="feature-card">
+        <div className="feature-card feature-card-2">
           <h2>⚡ Modern</h2>
           <p>Uses the latest React and Next.js App Router</p>
         </div>
-        <div className="feature-card">
+        <div className="feature-card feature-card-3">
           <h2>🎨 Clean</h2>
           <p>Simple, beautiful design that's easy to customize</p>
         </div>
